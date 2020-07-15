@@ -1,0 +1,46 @@
+admin table:
+
+	#	Name		Type		Collation	  Attributes	Null	Default	
+	1	username	varchar(30)	latin1_swedish_ci		Yes	NULL				
+	2	password	varchar(30)	latin1_swedish_ci		Yes	NULL			
+
+
+busroutes tables:(5)
+
+	#	Name		Type		Collation	Attributes	Null	Default	
+	1	stopname	varchar(30)	latin1_swedish_ci		Yes	NULL			
+
+busstudents tables(5):
+
+	#	Name		Type		Collation	   Attributes   Null	Default	
+	1	FirstName	varchar(50)	latin1_swedish_ci		Yes	NULL		
+	2	LastName	varchar(50)	latin1_swedish_ci		Yes	NULL				
+	3	Yearofstudy	int(11)						Yes	NULL				
+	4	RecieptNumber	varchar(255)	latin1_swedish_ci		Yes	NULL				
+
+recieptnumbers table:
+
+
+	#	Name		Type		Collation	Attributes	Null	Default
+	1	Firstname	text		latin1_swedish_ci		Yes	NULL			
+	2	Lastname	text		latin1_swedish_ci		Yes	NULL		
+	3	Recieptnumber	varchar(30)	latin1_swedish_ci		Yes	NULL		
+	4	Year		int(11)						Yes	NULL	
+
+status table:
+
+	#	Name		Type		Collation	Attributes	Null	Default	
+	1	Recieptnumber	varchar(30)	latin1_swedish_ci		Yes	NULL		
+	2	Status		varchar(255)	latin1_swedish_ci		Yes	NULL		
+
+studentdetails table:
+
+	#	Name		Type		Collation	Attributes	Null	Default	
+	1	Firstname	text		latin1_swedish_ci		Yes	NULL			
+	2	Lastname	text		latin1_swedish_ci		Yes	NULL
+	3	Recieptnumber	varchar(30)	latin1_swedish_ci		Yes	NULL	
+	4	Password	varchar(30)	latin1_swedish_ci		Yes	NULL	
+	5	stopname	varchar(30)	latin1_swedish_ci		Yes	NULL		
+	6	alloted		varchar(10)	latin1_swedish_ci		Yes	NO			
+	7	busnumber	int(11)						Yes	NULL			
+	8	pass		varchar(30)	latin1_swedish_ci		Yes	NO		
